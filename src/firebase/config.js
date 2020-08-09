@@ -1,7 +1,7 @@
 import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
-import config from '../.env';
+import config from '../config.js';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
