@@ -26,7 +26,7 @@ var firebaseConfig = {
     appId: process.env.REACT_APP_APP_ID
   };
 
-  console.log('firebaseConfig2', firebaseConfig2)
+  console.log('firebaseConfig2', process.env)
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
